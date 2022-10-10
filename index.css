@@ -1,0 +1,29 @@
+body{
+    margin: 20px;
+    font-family: Garamond, serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #80ffdb;
+    background-color: #480ca8;
+    border-bottom: 6px solid #27e5fa;
+    text-shadow: 3px 3px black;
+}
+
+
+
+/*utility class: a class for a single css property
+
+There are safe Web fonts that don't need to sent their "recipe through the network
+
+by adding many fonts you can have backup if one isn't compatible with the browser*/
